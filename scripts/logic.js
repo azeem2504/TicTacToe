@@ -58,7 +58,7 @@ function isGameOver(){
         
     }
     //draw
-    if(count >= 9){
+    if(count > 9){
         // alert(`Game Draw`)
         out.innerText = "Game Draw"
         disable()
