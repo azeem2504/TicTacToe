@@ -10,7 +10,7 @@ function bindEvents(){
         buttons[i].addEventListener('click', printXorZero)
     }
     btn = document.getElementById('reset')
-    btn.addEventListener('click', setTime)
+    btn.addEventListener('click', reset)
 }
 //maintain a counter to check if count goes > 4 then heck game over conditions
 function isGameOver(){
@@ -58,7 +58,7 @@ function isGameOver(){
         
     }
     //draw
-    if(count > 9){
+    if(count >= 9){
         // alert(`Game Draw`)
         out.innerText = "Game Draw"
         disable()
