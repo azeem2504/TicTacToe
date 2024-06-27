@@ -1,0 +1,27 @@
+button {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: rgb(194, 238, 238);
+    font-size: 40px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(184, 193, 190);
+}
+
+
+h1 {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}
+#reset{
+    font-size: 15px;
+    border-radius: 10px;
+    height: 40px;
+    background-color: bisque;
+    margin-left: 46.5%;
+}
